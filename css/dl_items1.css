@@ -1,0 +1,24 @@
+@charset 'utf-8';
+    #item {
+        margin: 0 auto;
+        width: 600px;
+        align-self: center;
+        margin-top: -1px;
+        border-top: 1px solid rgb(175, 175, 175);
+        padding: 14px 14px;
+    } 
+    #item dl{
+        overflow: hidden;
+    }
+    #item dt{ 
+        border: 1px solid orangered;
+        width: 130px;
+        height: 130px;
+        float: left;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 130px;
+    }
+     #item dd{      
+        text-indent:2em;
+    }
